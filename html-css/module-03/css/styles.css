@@ -31,7 +31,7 @@
 }
 
 .menu-item:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .menu-link{
@@ -55,7 +55,7 @@
 }
 
 .doc-section:last-child {
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .article {

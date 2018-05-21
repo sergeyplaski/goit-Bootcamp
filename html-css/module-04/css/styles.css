@@ -36,3 +36,7 @@
 .menu-link:hover{
     color: rgb(8, 196, 196);
 }
+
+.section-title {
+    text-transform: uppercase;
+}

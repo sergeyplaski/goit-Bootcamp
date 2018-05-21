@@ -1,3 +1,12 @@
+/* code updated 21.05.2018
+   menu paddings removed;
+   sections removed;
+   paddings replaced with bottom margins (between elements);
+   margin-bottom added for the wrapper and main;
+   width of wrapper set to 900px as specified by the screenshot;
+   margin between articles calculated: (wrapper width)-2*(article width)
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
 
 * {
@@ -9,13 +18,13 @@
 }
 
 .wrapper {
-    width: 940px;
+    width: 900px;
     margin: auto;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 .header {
-    padding: 70px 0;
+    margin-bottom: 70px;
 }
 
 .menu{
@@ -44,15 +53,14 @@
 .main {
     font-family: 'Playfair Display', serif;
     font-size: 0;
-    width: 880px;
-    margin: auto;
+    margin: 0 auto 35px;
 }
 
 .article {
     display: inline-block;
     width: 420px;
     color: grey;
-    margin-right: 40px;
+    margin-right: 60px;
     margin-bottom: 70px;
 }
 
@@ -61,7 +69,7 @@
 }
 
 .article:nth-last-child(-n+2) {
-    margin-bottom: 35px;
+    margin-bottom: 0;
 }
 
 .article-img {

@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "pe-icon-7-stroke.css";
+@import "fonts.css";
+@import "header.css";
+@import "slider.css";
+@import "gallery.css";
+@import "slider.css";
+@import "footer.css";
+
+.container {
+    position: relative;
+    width: 1110px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}

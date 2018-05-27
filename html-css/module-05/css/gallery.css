@@ -1,0 +1,165 @@
+.gallery-wrapper {
+    background-color: #e9f0fd;
+}
+
+.gallery-container {
+    padding: 110px 0 150px;
+    font-size: 0;
+}
+
+.section-title {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(81, 81, 81);
+}
+
+.section-title::after {
+    display: block;
+    content: '';
+    width: 164px; 100px;
+    height: 7px;
+    margin: 20px auto 70px;
+    background-color: #1abc9c;
+}
+
+.product-card {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 0;
+    font-weight: 800;
+    color: #fff;
+    transition: 1s;
+}
+
+.product-card:last-child {
+    margin-right: 0;
+}
+
+.product-picture {
+    width: 100%;
+    height: 282px;
+}
+
+.product-name {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: calc(100% - 60px);
+    height: 40px;
+    padding-left: 15px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #333;
+}
+
+.product-price {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #888;
+}
+
+.product-card:hover > .product-name {
+    background-color: #1abc9c;
+}
+
+.product-card:hover > .product-price {
+    background-color: #1cdbb9;
+}
+
+.product-name:hover {
+    cursor: pointer;
+}
+
+.product-price:hover {
+    cursor: pointer;
+}
+
+.product-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 282px;
+    border: 10px solid rgba(255, 255, 255, 0.6);
+/*TODO: how to make border more white and more transparent? */
+    /*width: calc(100% - 20px);*/
+    /*height: 262px;*/
+    /*left: 10px;*/
+    /*top: 10px;*/
+    /*box-sizing: content-box;*/
+    z-index: -1;
+}
+
+.overlay-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+    width: 166px;
+}
+
+.overlay-icon {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-right: 8px;
+
+}
+
+.overlay-icon:nth-child(3) {
+    margin-right: 0;
+}
+
+.overlay-icon:hover {
+    background-color: #1abc9c;
+}
+
+.overlay-basket {
+    width: 100%;
+    height: 50px;
+    background-color: #323232;
+    color: #fff;
+    border: 1px solid #fff;
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.overlay-basket-text {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.overlay-basket:hover {
+    background-color: #1abc9c;
+}
+
+.product-card:hover > .product-overlay {
+   z-index: 1;
+}

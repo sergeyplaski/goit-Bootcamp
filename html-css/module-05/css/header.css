@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+    padding: 20px 0;
+}
+
+.logo-link {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    display: inline-block; /* req'd for :first-letter to work! */
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(120, 120, 120);
+}
+
+.logo::first-letter {
+    font-weight: 600;
+    color: rgb(26, 188, 156);
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(26, 26, 26);
+    margin-right: 20px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    color: rgb(26, 188, 156);
+    cursor: pointer;
+}

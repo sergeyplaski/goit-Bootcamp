@@ -1,0 +1,17 @@
+.footer-wrapper {
+    background-color: #323232;
+}
+
+.footer {
+    padding: 25px 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.designer-name{
+    color: #1abc9c;
+    text-decoration: none;
+}

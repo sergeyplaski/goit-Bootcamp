@@ -1,0 +1,48 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    margin: auto;
+    border-top: 1px solid #ccc;
+    padding: 10px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.copyright-info {
+    line-height: 40px;
+}
+
+.copyright-text {
+    color: #000;
+}
+
+.designer-name{
+    color: #f38181;
+    text-decoration: none;
+}
+
+.subscribe-email {
+    width: 250px;
+    height: 40px;
+}
+
+.subscribe-email::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #999999;
+    padding-left: 10px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #95e1d3;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}

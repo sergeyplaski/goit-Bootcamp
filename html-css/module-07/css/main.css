@@ -1,0 +1,28 @@
+@import "reset.css";
+@import "fonts.css";
+@import "header.css";
+@import "services.css";
+@import "footer.css";
+
+
+.container {
+    width: 940px;
+    margin: auto;
+}
+
+.section-title {
+    font-family: 'Roboto-Slab-Bold', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.section-subtitle {
+    font-family: 'Droid Serif Italic V2', '﻿RobotoSlab-Regular', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,52 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: 0 auto 100px;
+}
+
+.logo-link {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Wisdom Script AI', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fed136;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 44px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+    margin-right: 35px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    color: #fed136;
+    cursor: pointer;
+}

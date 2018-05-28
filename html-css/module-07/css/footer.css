@@ -1,0 +1,94 @@
+.footer-wrapper {
+    background: url('../img/map.jpg') no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.footer-subtitle {
+    color: #888;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 195px;
+    margin-bottom: 25px;
+}
+
+[type="text"], [type="email"] {
+    width: 440px;
+    height: 45px;
+    border: none;
+    padding: 0 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+[type="text"]::placeholder,
+[type="email"]::placeholder {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+[required]:valid {
+    border: solid 3px #0a0;
+}
+
+[required]:invalid {
+    border: solid 3px #c00;
+}
+
+.text-message {
+    width: 440px;
+    height: 195px;
+    overflow: auto;
+    border: none;
+    padding: 12px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.text-message::placeholder {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.contact-btn {
+    width: 240px;
+    height: 55px;
+    background-color: #fed136;
+    color: #fff;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 55px;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+}
+

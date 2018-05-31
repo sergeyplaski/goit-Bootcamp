@@ -23,13 +23,15 @@
     margin-bottom: 100px;
 }
 
-.logo {  
+.logo { 
+    display: block;
     width: 150px;
     float: left;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight:400;
+    text-decoration: none;
     color: #777;
 }
 
@@ -109,6 +111,7 @@
 }
 
 .product-picture {
+    display: block;
     width: 255px;
     height: 282px;
 }
@@ -135,11 +138,11 @@
     text-align: center;
 }
 
-.product-card:hover > .product-name {
+.product-card:hover > .product-name-price .product-name {
     background-color: #198888;
 }
 
-.product-card:hover > .product-price {
+.product-card:hover > .product-name-price .product-price {
     background-color: #16aaaa;
 }
 

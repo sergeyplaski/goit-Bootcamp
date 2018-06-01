@@ -9,7 +9,7 @@
 }
 
 .slider-nav-box {
-    display: inline-block;
+    /*display: inline-block;*/ /* fixed - not needed */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

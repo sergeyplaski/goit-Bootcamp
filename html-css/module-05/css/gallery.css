@@ -4,7 +4,10 @@
 
 .gallery-container {
     padding: 110px 0 150px;
-    font-size: 0;
+}
+
+.product-card-set {
+    font-size: 0; /* removes tiny margins between cards */
 }
 
 .section-title {

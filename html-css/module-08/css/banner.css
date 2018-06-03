@@ -1,0 +1,69 @@
+.banner {
+    text-align: center;
+}
+
+.title {
+    font-family: '﻿Montserrat-Bold', Helvetica, Arial, sans-serif;
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner__title {
+    margin-bottom: 0.85rem;
+}
+
+.sub-title {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.banner__sub-title {
+    /* padding: 0 2.25rem; */
+    width: 14rem;
+    margin: 0 auto .85rem;
+}
+
+.btn {
+    font-family: '﻿Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(255, 78, 80);
+    padding: .75rem 2.5rem;
+    border: none;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+}
+
+.banner__btn {
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 3.25rem;
+    }
+
+    .banner__title {
+        width: 31rem;
+        margin: 0 auto 1.75rem;
+    }
+
+    .sub-title {
+        font-size: 1.5rem;
+    }
+
+    .banner__sub-title {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

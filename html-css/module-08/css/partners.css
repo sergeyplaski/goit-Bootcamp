@@ -1,0 +1,147 @@
+.wrapper-partners {
+    background-color: rgb(255, 255, 255);
+}
+
+.partners {
+    padding: 4rem 0 3.5rem;
+    text-align: center;
+}
+
+.section-title {
+    font-family: '﻿Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.425rem;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.partners__section-title {
+    margin-bottom: 1rem;
+}
+
+.partners__cards-body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.card {
+    width: 13.6rem;
+    padding-bottom: 1.5rem;
+}
+
+.card__pic-block {
+    display: block;
+    position: relative;
+    width: 7.688rem;
+    height: 7.688rem;
+    margin: 0 auto 0.75rem;
+}
+
+.card__pic {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card__icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.25rem solid rgb(255, 255, 255);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.25rem;
+}
+
+.card__icon--red {
+    background-color: rgb(255, 78, 80);
+}
+
+.card__icon--orange {
+    background-color: rgb(255, 165, 7)
+}
+
+.card__icon--green {
+    background-color: rgb(28, 215, 173);
+}
+
+.card__icon--blue {
+    background-color: rgb(78, 115, 219);
+}
+
+.card__icon-img {
+    width: 50%;
+    height: 50%;
+}
+
+.card__name {
+    font-family: '﻿Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.card__info {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+.partners__btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 78, 80);
+    border: 0.125rem solid rgb(255, 78, 80);
+    padding: .75rem 4rem;
+}
+
+@media screen and (min-width: 768px) {
+    .partners__cards-body {
+        flex-flow: column wrap;
+        align-content: space-between;
+        /* flex-basis: 50%; */
+        width: 30rem;
+        height: 33.5rem;
+        margin: auto;
+    }
+
+    .partners__section-title {
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        margin-bottom: 2rem;
+    }
+
+    .card:nth-child(2n) {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .partners__cards-body {
+        flex-flow: row nowrap;
+        align-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        margin-bottom: 0;
+    }
+
+    .card:nth-child(2n) {
+        order: 2;
+    }
+}

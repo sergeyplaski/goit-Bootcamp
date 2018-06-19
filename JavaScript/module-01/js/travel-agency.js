@@ -31,20 +31,21 @@ let group = '';
 const MSG_ENTRY_ERR = 'Ошибка ввода';
 const MSG_USER_DECLINED = 'Нам очень жаль, приходите еще!';
 const MSG_UNAVAILABLE = 'Извините, столько мест нет ни в одной группе!';
+const MSG_GROUP_CONFIRMED = 'Приятного путешествия в группе ';
 
 let reqQty = prompt('How many persons will be traveling?');
 if (reqQty !== null) {
    if (reqQty < 0 || reqQty != parseInt(reqQty)) {
        alert(MSG_ENTRY_ERR);
-   } else if (reqQty <= sharm) {
-       group = 'Sharm';
-       alert(confirm(`Для ${reqQty} человек есть место в группе ${group}. Согласны ли вы быть в этой группе?`) ? `Приятного путешествия в группе ${group}` : MSG_USER_DECLINED)
-   } else if (reqQty <= hurgada) {
-       group = 'Hurgada';
-       alert(confirm(`Для ${reqQty} человек есть место в группе ${group}. Согласны ли вы быть в этой группе?`) ? `Приятного путешествия в группе ${group}` : MSG_USER_DECLINED)
    } else if (reqQty <= taba) {
        group = 'Taba';
-       alert(confirm(`Для ${reqQty} человек есть место в группе ${group}. Согласны ли вы быть в этой группе?`) ? `Приятного путешествия в группе ${group}` : MSG_USER_DECLINED)
+       alert(confirm(`Для ${reqQty} человек есть место в группе ${group}. Согласны ли вы быть в этой группе?`) ? MSG_GROUP_CONFIRMED + group : MSG_USER_DECLINED)
+   } else if (reqQty <= sharm) {
+       group = 'Sharm';
+       alert(confirm(`Для ${reqQty} человек есть место в группе ${group}. Согласны ли вы быть в этой группе?`) ? MSG_GROUP_CONFIRMED + group : MSG_USER_DECLINED)
+   } else if (reqQty <= hurgada) {
+       group = 'Hurgada';
+       alert(confirm(`Для ${reqQty} человек есть место в группе ${group}. Согласны ли вы быть в этой группе?`) ? MSG_GROUP_CONFIRMED + group : MSG_USER_DECLINED)
    } else {
        alert(MSG_UNAVAILABLE);
    }

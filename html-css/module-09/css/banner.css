@@ -1,0 +1,61 @@
+.title {
+    font-family: '﻿Montserrat-Bold', Helvetica, Arial, sans-serif;
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner__title {
+    max-width: 19rem;
+    margin: 0 auto 0.25rem;
+}
+
+.sub-title {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 1.075rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    max-width: 16rem;
+    text-align: center;
+    margin: 0 auto 0.5rem;
+}
+
+.banner__sub-title {
+    max-width: 16rem;
+    margin: 0 auto .35rem;
+}
+
+.btn {
+    font-family: '﻿Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(255, 78, 80);
+    padding: .65rem 3.5rem;
+    border: none;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+
+    max-width: 17.5rem;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 3.25rem;
+        max-width: 33rem;
+        margin: 0 auto 1.25rem;
+    }
+
+    .sub-title {
+        font-size: 1.5rem;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}

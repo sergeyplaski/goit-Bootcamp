@@ -1,0 +1,101 @@
+.wrapper-header {
+    background: rgba(0, 0, 0, 0.8) url('../img/bg-banner.png') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 1.313rem 0 8.688rem;
+}
+
+.container {
+    min-width: 20rem;
+    max-width: 58.75rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header-row {
+    flex-direction: column-reverse;
+    /*align-items: center;*/
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    font-family: '﻿Montserrat-Bold', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0.0775rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.auth {
+    text-align: center;
+    margin-bottom: 6.75rem;
+}
+
+.auth-btn {
+    background-color: transparent;
+    font-family: '﻿Montserrat-Bold', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: .875rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    padding: .45rem 1.25rem;
+    border: 0.125rem solid rgba(255, 255, 255, 0);
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    border-radius: 1.25rem;
+    transition: 0.75s;
+}
+
+.auth-btn:hover {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper-header {
+        padding: 2.25rem 0 14.5rem;
+    }
+
+    .container {
+        max-width: 42rem;
+        padding: 0;
+    }
+
+    .header {
+        margin-bottom: 8.875rem;
+    }
+
+    .row-header {
+        flex-direction: initial;
+    }
+
+    .logo-container {
+        text-align: left;
+    }
+
+    .auth {
+        margin: 0;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 58.75rem;
+    }
+}

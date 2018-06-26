@@ -54,9 +54,9 @@ let addLogin = (login, arrLogins) => {
         checkIfLoginExists(login) ? alert('Такой логин уже используется!') :
             // remember to use round brackets, comma expressions, and no semicolons with multiple statements!
             (
-                arrLogins.push(login),
-                alert('Логин успешно добавлен!'),
-                console.log(login, arrLogins)
+                arrLogins.push(login), 
+                console.log(login, arrLogins), 
+                alert('Логин успешно добавлен!')
             )
 };
 

@@ -10,6 +10,13 @@
       <change beforePath="$PROJECT_DIR$/../html-css/module-05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html-css/module-05/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html-css/module-08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html-css/module-08/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html-css/module-09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../html-css/module-09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_spiderman/.idea/0705_DOM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_spiderman/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_spiderman/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_spiderman/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_spiderman/0705_dom_spiderman.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_spiderman/css/0705_dom_spiderman.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom_spiderman/js/0705_dom_spiderman.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,11 +69,6 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="dom_spiderman" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -75,7 +77,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/0705_dom_deadpool" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -101,12 +103,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530833364986</updated>
-      <workItem from="1530833366276" duration="424000" />
+      <workItem from="1530833366276" duration="1056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424000" />
+    <option name="totallyTimeSpent" value="1056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -149,6 +151,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dom_spiderman/0705_dom_spiderman.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excercise2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551" />
+      </provider>
     </entry>
   </component>
 </project>

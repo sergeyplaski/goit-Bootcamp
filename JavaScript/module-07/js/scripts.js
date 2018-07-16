@@ -81,5 +81,6 @@ function createCards(arrPosts) {
     return frag;
 }
 
+// append all posts in the body
 let cards = createCards(posts);
-document.querySelector('body').append(cards);
+document.body.append(cards);

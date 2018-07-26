@@ -54,7 +54,7 @@ footerText.classList.add('small-text');
 
 imgContainer.setAttribute('id', 'main-image-container');
 mainImg.setAttribute('src', 'http://s3.foxfilm.com/foxmovies/production/films/103/images/gallery/deadpool1-gallery-image.jpg');
-mainImg.setAttribute('alt', 'Spiderman picture');
+mainImg.setAttribute('alt', 'deadpool picture');
 
 bqcite.setAttribute('title', 'Source Title');
 

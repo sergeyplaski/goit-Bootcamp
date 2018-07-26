@@ -115,7 +115,8 @@ class Hamburger {
      */
     removeTopping(topping) {
         if (this._toppings.includes(topping)) {
-            this._toppings = this._toppings.filter(val => val !== topping); // remember: filter() returns the altered array
+            this._toppings = this._toppings.filter(val => val !== topping);
+            // remember: filter() returns the altered array
             console.log(' #removed topping: ', topping);
         } else {
             console.log(`Can't remove ${topping} - you haven't ordered it on your hamburger`);
@@ -239,7 +240,7 @@ console.log("Price with sauce and spice: ", hamburger.price);
 console.log("Calories with sauce and spice: ", hamburger.calories);
 
 // Проверить, большой ли гамбургер?
-console.log("Is hamburger large: ", hamburger.size === Hamburger.SIZE_LARGE); // -> false
+console.log("Is hamburger large: ", hamburger.size === Hamburger.SIZE_LARGE); // false
 
 // Убрать добавку
 hamburger.removeTopping(Hamburger.TOPPING_SPICE);

@@ -1,0 +1,92 @@
+.team-container {
+    width: 1220px;
+    margin: auto;
+}
+
+.team-intro {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.team-member-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.team-member-card {
+    position: relative;
+    flex-basis: 383px;
+}
+
+.team-member-pic {
+    width: 383px;
+    height: 473px;
+    margin-bottom: 20px;
+}
+
+.team-member-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team-member-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    color: #999999;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.team-member-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 383px;
+    height: 473px;
+    background-image: linear-gradient(to bottom, #f38181, #fce38a);
+    opacity: 0;
+    transition: linear 0.4s;
+}
+
+.overlay-icon {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    color: #f38181;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.overlay-icon:hover {
+    background-color: #95e1d3;
+}
+/*TODO: how to make icon background non-transparent? */
+
+.team-member-card:hover > .team-member-overlay {
+    opacity: 0.9;
+    box-shadow: 12px 12px 0 0 #73b7a9;
+    transform: translate(-12px,-12px);
+}

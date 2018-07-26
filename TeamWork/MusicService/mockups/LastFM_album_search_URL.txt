@@ -1,1 +1,0 @@
-﻿http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=66fe76bd2d42439b32aabf649e537b4d&artist=Cher&album=Believe&format=json

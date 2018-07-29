@@ -1,0 +1,33 @@
+.tasklist__item {
+    border-top: 2px solid #004552;
+}
+
+.tasklist__item-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    line-height: 44px;
+    padding-left: 12px;
+}
+
+.tasklist__item-text {
+    display: inline-block;
+    width: 70%;
+    font-weight: 400;
+}
+
+.tasklist__item-btns {
+    display: inline-block;
+    width: 27%;
+}
+
+.tasklist__item-edit {
+    display: inline-block;
+    width: 70%;
+    height: 30px;
+    margin: auto 0;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+    color: #000;
+}

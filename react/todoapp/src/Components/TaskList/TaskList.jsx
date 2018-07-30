@@ -4,7 +4,7 @@ import styles from './TaskList.css';
 import TaskComp from "../Task/Task";
 
 const TaskListComp = ({tasks, ops}) => {
-    console.log(ops);
+    // console.log(ops);
     return (
         <ul className={styles.tasklist}>
             {tasks.map(task =>

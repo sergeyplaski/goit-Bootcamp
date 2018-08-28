@@ -1,0 +1,33 @@
+$ npm i express --save
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN 0827_bookapp@1.0.0 No repository field.
+
++ express@4.16.3
+added 50 packages in 5.95s
+
+serge@PDS-4700 MINGW64 ~/Documents/GoIT/Repositories/goit-Bootcamp/Node/0827_bookapp (master)
+$ npm i body-parser --save
+npm WARN 0827_bookapp@1.0.0 No repository field.
+
++ body-parser@1.18.3
+added 5 packages, updated 3 packages and moved 3 packages in 3.333s
+
+serge@PDS-4700 MINGW64 ~/Documents/GoIT/Repositories/goit-Bootcamp/Node/0827_bookapp (master)
+$ npm i mongodb --save
+npm WARN 0827_bookapp@1.0.0 No repository field.
+
++ mongodb@3.1.4
+added 9 packages in 3.717s
+
+$ npm i slug --save
+npm WARN notice [SECURITY] slug has the following vulnerability: 1 moderate. Go here for more details: https://nodesecurity.io/advisories?search=slug&version=0.9.1 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN 0827_bookapp@1.0.0 No repository field.
+
++ slug@0.9.1
+added 2 packages in 5.101s
+
+----
+
+added .gitignore (make sure to include config/db.js in it);
+
+created config/db.js file with url to access ny mLab mongo db;

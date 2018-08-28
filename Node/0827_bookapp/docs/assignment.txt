@@ -1,0 +1,40 @@
+﻿ДЗ
+Необходимо сделать endpoint'ы для работы с онлайн библиотекой. В нашем приложении есть users, у каждого users есть username и список книг books.
+
+Нужны такие endpoints:
+1) /users/:index – PUT – Можем изменить username у пользователя по index в нашем массиве
+2) /users/:index – DELETE – удаляем пользователя
+3) /users/:index/books – POST – добавить книгу в библиотеку, параметры: автор и название
+4) /users/:index/books/:title – GET – получить информацию по одной книге, по имени
+5) /users/:index/books/:title – DELETE – удалить книгу из библиотеки пользователя
+6) /users/:index/books/:title – PUT – Изменить информацию о книге
+
+*Подсказка к домашнему заданию:*
+
+Для того чтобы искать по названию книги, вам нужно её название переводить в формат slug(Что это такое знает гугл) и в url адресе писать навзание в этом формате. Выше, я сбросил пример объекта книги, который у вас должен храниться в самом коде. Обратите внимание на геттер! Он возвращает slug книги из её названия.
+
+Пример:
+
+У нас книга называется как *"Getting Things Done"* –--> slug этой книги = *getting-things-done* ---> значит запрос мы делаем на url: */users/1/books/getting-things-done* ---> А дальше ищем в массиве книг при помощи *find* или *findIndex*.
+
+P.S: Ссылка на npm пакет slug: https://www.npmjs.com/package/slug
+
+Notes: 
+1) Step-by-step instructions on creating and setting up a basic app can be found here: 
+https://habr.com/company/ruvds/blog/321104/
+
+2) The examples above contain some code for older version of monglo client (pre-3.0). One good example of the new code is below:
+
+// The legacy operation:
+MongoClient.connect('mongodb://localhost:27017/test', (err, db) => {
+   // Database returned
+});
+
+// is replaced with
+MongoClient.connect('mongodb://localhost:27017/test', (err, client) => {
+   // Client returned
+   var db = client.db('test');
+});
+
+// see this for details:
+https://stackoverflow.com/questions/43779323/typeerror-db-collection-is-not-a-function

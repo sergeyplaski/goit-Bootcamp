@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8a9a4a0-de82-4188-bebd-5aef641c5070" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assignment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/ArtistPage/ArtistPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/ArtistPage/ArtistPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/SongCard/Song.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/SongsPage/SongsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/SongsPage/SongsPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react/musicapp/src/helpers/fetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../react/todoapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/todoapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Artist/Artist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Artist/Artist.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Card/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/Card/Card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Chart/Chart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/Chart/Chart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Chart/Chart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/Chart/Chart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Search/Search.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/Search/Search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/Search/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/Components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/Components/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../react/musicapp/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../react/musicapp/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,24 +44,28 @@
           <file leaf-file-name="input.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/input.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="594">
-                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                <state relative-caret-position="198">
+                  <caret line="11" column="23" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="assignment.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="assignment.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assignment.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+                <state relative-caret-position="792">
+                  <caret line="44" column="102" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="102" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="576">
+                  <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -52,8 +75,8 @@
           <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/scripts.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="367">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="450">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                 </state>
               </provider>
             </entry>
@@ -82,6 +105,7 @@
         <option value="$PROJECT_DIR$/input.html" />
         <option value="$PROJECT_DIR$/assignment.txt" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -156,11 +180,13 @@
       <workItem from="1531813801749" duration="235000" />
       <workItem from="1532936521890" duration="865000" />
       <workItem from="1532982883884" duration="6977000" />
+      <workItem from="1533077242381" duration="3910000" />
+      <workItem from="1533297510543" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9209000" />
+    <option name="totallyTimeSpent" value="14011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -170,12 +196,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -192,6 +218,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="102" lean-forward="true" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/input.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -243,27 +321,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.html">
+    <entry file="file://$PROJECT_DIR$/assignment.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="792">
+          <caret line="44" column="102" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment.txt">
+    <entry file="file://$PROJECT_DIR$/input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state relative-caret-position="198">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>

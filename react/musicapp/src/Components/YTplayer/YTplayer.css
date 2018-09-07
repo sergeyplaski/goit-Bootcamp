@@ -1,0 +1,29 @@
+.player {
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+    z-index: 2;
+}
+
+.player iframe {
+    display: block;
+    width: 100%;
+    height: 280px;
+}
+
+.close {
+    font-family: sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    padding: 3px 7px;
+    line-height: 20px;
+    background-color: var(--red);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}

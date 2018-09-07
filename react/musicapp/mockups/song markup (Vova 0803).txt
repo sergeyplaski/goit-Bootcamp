@@ -1,0 +1,96 @@
+<figcaption className="songs-item__discription" >
+                <p className="songs-item__music-name">{name}</p>
+                <p className="songs-item__singer">{typeof info === 'object' ? info.name : info}</p>
+                <div className="svg-song-container">
+                            <img src={youtube} alt="youtube" className='card__svg'/>
+                            <img src={favorite} alt="favorite" className='card__svg'/>
+                            <img src={add} alt="add" className='card__svg'/>
+                        </div>
+            </figcaption>
+
+.svg-song-container {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    width: 25%;
+    align-items: center;
+    height: 40px;
+}
+.songs-item:hover {
+    background-color: rgba(255,255,255, 0.5);
+}
+.songs-item:hover .svg-song-container {
+    display: flex;
+}
+
+.songs-item:hover .songs-item__singer {
+    color: rgba(255, 0, 0, 0.6);
+    font-weight: 700;
+}
+
+.card__svg {
+    width: 30px;
+    height: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.card__svg:hover {
+    width: 40px;
+    height: 40px;
+}
+
+//*********** Card markup
+ ***********************
+
+<div className="img-container">
+                    <img src={url !== '' ? url : cardImg} alt="artist" className="artist-card__img"/>
+                    <div className="card__overlay">
+                        <div className="svg-container">
+                            <img src={youtube} alt="youtube" className='card__svg'/>
+                            <img src={favorite} alt="favorite" className='card__svg'/>
+                            <img src={add} alt="add" className='card__svg'/>
+                        </div>
+                    </div>
+                </div>
+
+card style
+.img-container {
+    width: 174px;
+    margin: auto;
+    position: relative;
+}
+.card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 174px;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: none;
+}
+
+.artist-card:hover .card__overlay {
+    display: block;
+}
+.svg-container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+.card__svg {
+    width: 30px;
+    height: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.card__svg:hover {
+    width: 40px;
+    height: 40px;
+}

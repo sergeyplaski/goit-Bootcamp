@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {NavLink} from 'react-router-dom';
 import '../Menu/Menu.css';
 
 const SubMenu = ({sub}) => {
@@ -7,7 +8,7 @@ const SubMenu = ({sub}) => {
       <ul className="sub-menu">
           {sub.map(el =>
               <li className='sub-menu__item' key={`${el.parentKey}${el.text}`}>  {/*unique key*/}
-                  <a href={el.link} className='sub-menu__link'>{el.text}</a>
+                  <NavLink className='sub-menu__link' to={el.link}>{el.text}</NavLink>
               </li>
           )}
       </ul>

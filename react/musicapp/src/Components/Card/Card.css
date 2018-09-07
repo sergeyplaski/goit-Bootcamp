@@ -10,8 +10,7 @@
 }
 
 .artist-card__img {
-    width: 9.54rem;
-    /*margin: auto;*/
+    /*width: 9.54rem;*/
 }
 
 .artist-card figure {
@@ -23,8 +22,8 @@
     background-color: var(--serch);
     z-index: -1;
     position: relative;
-    top: -1.05rem;
-    width: 9.56rem;
+    width: 10.86rem;
+    min-height: 90px;
     margin: auto;
     padding: 1rem 0.5rem;
     border-radius: 0.125rem;
@@ -45,6 +44,37 @@
 .artist-card__link {
     font-size: var(--mobSmall);
     color: var(--grey);
+}
+
+.artist-card figure:hover > .card__overlay {
+    display: flex;
+}
+
+.card__overlay {
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 92%;
+    height: 66%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.card__overlay-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.card__overlay-icon:hover {
+    width: 40px;
+    height: 40px;
+    transition: 0.25s;
 }
 
 @media (min-width: 480px) {

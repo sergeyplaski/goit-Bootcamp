@@ -3,14 +3,14 @@ import React from 'react';
 import './Search.css';
 import Chart from "../Chart/Chart";
 
-const Search = (props) => {
+const Search = ({value, onChange, handlerSearch, handlerSidebar}) => {
     return (
         <div className='search'>
-            <form action="#" method="post" className="search__form">
-                <input type="text" className="search__input" placeholder="Search music" />
+            <form action="#" method="post" className="search__form" onSubmit={handlerSearch}>
+                <input type="text" name="searchValue" className="search__input" placeholder="Search music..." onChange={onChange} />
                 <input type="submit" value="search" className="search__btn" />
             </form>
-            <Chart/>
+            <Chart handlerSidebar={handlerSidebar}/>
         </div>
     );
 };

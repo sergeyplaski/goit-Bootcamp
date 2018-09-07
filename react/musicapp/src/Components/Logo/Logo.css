@@ -11,3 +11,8 @@
     text-align: center;
     color: var(--white);
 }
+
+.logo__img {
+    width: 70px;
+    height: 70px;
+}

@@ -1,3 +1,11 @@
+.mobile-menu {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-right: 12px;
+}
+
 .chart {
     flex-basis: 100%;
     display: flex;
@@ -13,8 +21,20 @@
     border-bottom: 0.1875rem solid transparent;
     text-transform: uppercase;
     color: var(--white);
+    display: block;
 }
 .chart-list__item:hover {
     background-image: linear-gradient(0deg, rgb(33, 33, 33) 0%, rgb(38, 38, 38) 100%);
     border-bottom: 0.1875rem solid var(--red);
+}
+
+.selected {
+    background-image: linear-gradient(0deg, rgb(33, 33, 33) 0%, rgb(38, 38, 38) 100%);
+    border-bottom: 0.1875rem solid var(--red);
+}
+
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
 }

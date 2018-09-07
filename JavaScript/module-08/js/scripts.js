@@ -13,11 +13,17 @@ const galleryItems = [
 class Gallery {
     constructor({items, parentNode, defaultActiveItem}) {
         console.log(items);
-        /************ fullview ****************/
+        // fullview
         const fullviewHTML = `<div class="fullview">
-            <img src=${items[0].fullview} alt=${items[0].alt}>
+            <img class="fullview__img" src=${items[0].fullview} alt=${items[0].alt}>
             </div>`;
-        parentNode.innerHTML = fullviewHTML;
+
+        // preview
+        const previewHTML = '<ul class="preview">' +
+            galleryItems.reduce((items, item) => items + `<li><img src=${item.preview} data-fullview=${item.fullview} alt=${item.alt}</img></li>`, '') + '</ul>';
+
+        // construct HTML
+        parentNode.innerHTML = fullviewHTML + previewHTML;
     }
 }
 

@@ -26,6 +26,15 @@ img {
   /*padding: 0 1rem;*/
 }
 
+/*scrollbars*/
+::-webkit-scrollbar { width: 4px; height: 4px;}
+/*::-webkit-scrollbar-button {  background-color: var(--red); }*/
+::-webkit-scrollbar-track {  background-color: var(--red);}
+::-webkit-scrollbar-track-piece { background-color: #667;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: var(--red); border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #667;}
+::-webkit-resizer { background-color: var(--red);}
+
 @media (min-width: 768px) {
   .main {
     flex-basis: 80%;

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.image-gallery {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.fullview__img {
+    width: 100%;
+}
+
+.preview {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.preview li {
+    display: inline-block;
+    /*background-color: rgba(0,0,0,0.9);*/
+}
+
+.preview li img {
+    /*max-width: 212px;*/
+    /*height: auto;*/
+    width: 212px;
+    height: 132px;
+    border: 5px transparent;
+}
+
+.preview li img:hover {
+    border: 5px solid navy;
+}

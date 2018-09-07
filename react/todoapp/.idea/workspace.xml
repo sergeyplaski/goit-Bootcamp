@@ -2,11 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05978a88-d2f1-4b02-8328-fe4f75bb4f61" name="Default" comment="final">
-      <change afterPath="$PROJECT_DIR$/../../JavaScript/module-08/assignment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node/0827_bookapp/models/book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Node/0827_bookapp/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript/module-08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/module-08/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaScript/module-08/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/module-08/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript/module-08/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/module-08/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript/module-08/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript/module-08/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Node/0827_bookapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Node/0827_bookapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/AlbumPage/AlbumsPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/AlbumPage/AlbumsPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/AlbumsPage/AlbumsPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/AlbumsPage/AlbumsPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Artist/Artist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Artist/Artist.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Artist/ArtistPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Artist/ArtistPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/ArtistPage/ArtistPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/ArtistPage/ArtistPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/ArtistPage/ArtistPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/ArtistPage/ArtistPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Card/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Card/Card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Chart/Chart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Chart/Chart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Chart/Chart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Chart/Chart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Logo/Logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Logo/Logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Logo/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Logo/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Menu/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Menu/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Menu/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Search/Search.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Search/Search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Search/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/SongCard/Song.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/SongCard/Song.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/SongCard/SongCard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/SongsCard/SongsCard.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/SongsPage/SongsPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/SongsPage/SongsPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/SongsPage/SongsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/SongsPage/SongsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/Submenu/Submenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/Submenu/Submenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/YTplayer/YTplayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/Components/YTplayer/YTplayer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/Components/YoutubePlayer/YoutubePlayer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/helpers/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/helpers/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../musicapp/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../musicapp/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +60,11 @@
       <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="234">
+              <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#70#128#0" expanded="true" />
+                <element signature="e#128#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,8 +73,8 @@
       <file leaf-file-name="TaskList.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/TaskList/TaskList.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="522">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -48,7 +85,7 @@
       <file leaf-file-name="Task.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Task/Task.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="954">
               <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
             </state>
           </provider>
@@ -140,17 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -171,12 +197,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Class/0731_children_ref" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../React and Redux/_class_work/0808_redux_todo_2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -216,6 +258,7 @@
       <workItem from="1532610455877" duration="50137000" />
       <workItem from="1532936113988" duration="1022000" />
       <workItem from="1532955463844" duration="6602000" />
+      <workItem from="1535550669340" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <created>1532901546376</created>
@@ -228,19 +271,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57761000" />
+    <option name="totallyTimeSpent" value="57852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15649867" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3288889" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -267,11 +309,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#128#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/TaskList/TaskList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Task/Task.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Button/Button.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1548">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#70#128#0" expanded="true" />
+            <element signature="e#128#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -347,7 +424,7 @@
           <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#70#128#0" expanded="true" />
+            <element signature="e#128#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,7 +555,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Task/Task.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="954">
           <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
         </state>
       </provider>
@@ -509,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/TaskList/TaskList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="522">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -522,11 +599,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="234">
+          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#70#128#0" expanded="true" />
+            <element signature="e#128#186#0" expanded="true" />
           </folding>
         </state>
       </provider>

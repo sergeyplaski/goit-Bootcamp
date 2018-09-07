@@ -1,27 +1,26 @@
-import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import Card from './Card';
+import React from 'react';
+import Card from '../Card/Card';
 import './ArtistPage.css';
 
-class ArtistPage extends Component {
-    static defaultProps = {};
-
-    static propTypes = {};
-
-    state = {};
-
-    render() {
+const ArtistPage = ({artistsData, addFav, handlerYT}) => {
         return (
             <div className="content">
-                <Card artist="Gorillaz"
-                      pic="https://lastfm-img2.akamaized.net/i/u/174s/36422c10f46150b432a7d0ddbc87c5d3.png"
-                      alt="artist pic"
-                      link="https://www.last.fm/music/Gorillaz"
-                />
+                {artistsData.map((el, index) => <Card
+                    url={el.image[2]['#text']}
+                    name={el.name}
+                    // info={`Listeners: ${el.listeners.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`}
+                    info={`Listeners: ${(+el.listeners).toLocaleString()}`}
+                    addFav={addFav}
+                    arrFav="artistsFav"
+                    arrInt="artistsInt"
+                    arrData="artistsData"
+                    index={index} // index of element in the state.artistsData array
+                    handlerYT={handlerYT}
+                    key={el.name}
+                />)}
             </div>
         );
-    }
-}
+};
 
 export default ArtistPage;
 

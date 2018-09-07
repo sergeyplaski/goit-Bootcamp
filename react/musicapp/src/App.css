@@ -7,10 +7,36 @@
     max-width: 64rem;
     min-width: 20rem;
     margin: auto;
-    /*padding: 0 1rem;*/
     background-color: var(--main);
     position: relative;
     box-shadow: 0 0 0.625rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.main {
+    position: relative;
+}
+
+.content {
+    padding: 1.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    height: 78vh;
+}
+
+.loader-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.path404 {
+    color: #fff;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 3rem;
 }
 
 @media (min-width: 768px) {
